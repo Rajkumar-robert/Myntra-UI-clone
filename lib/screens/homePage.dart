@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
           IconButton(icon: Icon(Icons.shopping_bag_outlined), onPressed: () {}              ),
         ],
         iconTheme: IconThemeData(
-          color: Colors.black, // Set the icon color to black
+          color: Colors.black, 
         ),
       ),
       body: SingleChildScrollView(
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              CircleAvatarListView(),
+              categoryCard(),
               offerSlider(),
               SizedBox(height: 8),
               highlightCard(),

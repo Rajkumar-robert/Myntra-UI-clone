@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myntraclone/screens/homePage.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myntraclone/screens/screen2.dart';
+import 'package:myntraclone/screens/homePage.dart';
 
 
 void main() {
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         )
       ),  
-      home: SecondPage(),
+      home: HomePage(),
     );
   }
 }

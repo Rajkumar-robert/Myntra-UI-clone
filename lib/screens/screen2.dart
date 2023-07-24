@@ -52,7 +52,7 @@ class SecondPage extends StatelessWidget {
                 'Become An INSIDER!',
                 style: TextStyle(
                   color: Colors.yellow,
-                  fontSize: 24, // Increase the font size to 24
+                  fontSize: 24, 
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -94,7 +94,6 @@ class SecondPage extends StatelessWidget {
                   heading: '0/5',
                   subtitle: 'Your Orders',
                 ),
-                // Add more CustomListViewTile widgets as needed
               ],
             ),
             ),
@@ -217,7 +216,7 @@ class CustomListViewTile extends StatelessWidget {
     return ListTile(
       leading: CircleAvatar(
         radius: 30,
-        backgroundColor: Colors.grey, // You can set a default background color here
+        backgroundColor: Colors.grey,
         backgroundImage: NetworkImage(imageUrl),
         
       ),
@@ -235,7 +234,6 @@ class CustomListViewTile extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),),
       onTap: () {
-        // Handle tile tap if needed
       },
     );
   }

@@ -180,14 +180,3 @@ class highlightCard extends StatelessWidget {
     );
   }
 }
-
-void main() {
-  runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        title: Text('ListView Builder Example'),
-      ),
-      body: highlightCard(),
-    ),
-  ));
-}
